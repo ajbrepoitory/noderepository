@@ -9,12 +9,11 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
-/*const port = process.env.Port || 3000;*/
+const port = process.env.Port || 3000;
 
 // #############APP############################################
 var app = express();
-app.listen(80);
-
+app.listen(port);
 
 // #############Partials/Helpers##############################
 hbs.registerPartials(__dirname + '/views/partials');
