@@ -9,12 +9,12 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
-const port = process.env.Port || 3000;
+/*const port = process.env.Port || 3000;*/
 
 // #############APP############################################
 var app = express();
-app.listen(port, () => {
-    console.log(`Server is running oon port  ${port}`);
+app.listen(80, () => {
+   // console.log(`Server is running oon port  80`);
 
 });
 
