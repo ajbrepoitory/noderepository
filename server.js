@@ -13,10 +13,7 @@ const fs = require('fs');
 
 // #############APP############################################
 var app = express();
-app.listen(80, () => {
-   // console.log(`Server is running oon port  80`);
-
-});
+app.listen(80);
 
 
 // #############Partials/Helpers##############################
