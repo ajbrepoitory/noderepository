@@ -9,7 +9,7 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
-const port = process.env.Port || 3000;
+const port = process.env.Port || 8080;
 
 // #############APP############################################
 var app = express();
